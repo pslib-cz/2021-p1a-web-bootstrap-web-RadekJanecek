@@ -7,33 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>League of Legends</title>
+    <style>
+      body {
+        background-image: url("images/background.jpg"); 
+        background-size: 100% 100%; 
+        background-attachment: fixed
+      }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <header>
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <img src="images/logo.jpg" width="40" height="40" alt="logo"></img>
-          <a class="navbar-brand" href="index.html">League of Legends</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="championi.html">Championi</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="runy.html">Runy</a>
-              </li>
-            </ul>
-            <a class="btn btn-primary" href="prihlaseni.html" role="button">Přihlásit se</a>
-            <a class="btn btn-primary" href="registrace.html" role="button">Registrovat</a>
-            </form>
+            <img src="images/logo.jpg" width="40" height="40" alt="logo"></img>
+            <a class="navbar-brand" href="index.html">League of Legends</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="championi.html">Championi</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="runy.html">Runy</a>
+                </li>
+              </ul>
+              <a class="btn btn-primary" href="prihlaseni.html" role="button">Přihlásit se</a>
+              <a class="btn btn-primary" href="registrace.html" role="button">Registrovat</a>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
-      <div class="container">
-        <div class= "col-12 col-md-6 col-lg-4 bg-light">
+          </div>
+        </nav>
+      </header>
+  <div class="">
+        <div class="container">
+        <div class= "col-12 col-md-6 col-lg-4 bg-light mb-3">
         <div class="form-group">
           <label for="exampleInputEmail1">Email address or username</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email or username">
@@ -53,10 +65,13 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
       </div>
-      <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0);">
+    </div>
+  </div>
+</div>
+      <footer class="sticky-footer fixed-bottom ">
+        <div class="text-center text-light">
           © 2022 Copyright:
-          <a class="text-dark" href="https://www.leagueoflegends.com/cs-cz/">League of Legends</a>
+          <a class="text-light" href="https://www.leagueoflegends.com/cs-cz/">League of Legends</a>
         </div>
       </footer>
 </body>
